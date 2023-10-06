@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6023064054071767614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2795909799370701952}
+  - component: {fileID: 4491417673389600630}
+  - component: {fileID: 6536594438561985353}
+  m_Layer: 0
+  m_Name: LondonTower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2795909799370701952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023064054071767614}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 16.30539, y: 16.30539, z: 16.30539}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4126529766810961374}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4491417673389600630
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023064054071767614}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6536594438561985353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023064054071767614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec5ccfd5d9422f4a9727076a5d8ff7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &4525793857306796597
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2795909799370701952}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00763
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.79007596
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.11691867
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.59597754
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.083191454
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -16.494
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 74.125
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.472
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      propertyPath: m_Name
+      value: LondonTower
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 38d718b9c31b7604eaeb4503ef36022a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8416187646208419874}
+  m_SourcePrefab: {fileID: 100100000, guid: 38d718b9c31b7604eaeb4503ef36022a, type: 3}
+--- !u!1 &3607295723708063588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 38d718b9c31b7604eaeb4503ef36022a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4525793857306796597}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8416187646208419874
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3607295723708063588}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4825b0971c2689b499cc4aecf1a811b3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &4126529766810961374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 38d718b9c31b7604eaeb4503ef36022a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4525793857306796597}
+  m_PrefabAsset: {fileID: 0}
